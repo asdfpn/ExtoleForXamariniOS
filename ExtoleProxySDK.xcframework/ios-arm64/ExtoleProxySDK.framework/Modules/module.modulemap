@@ -1,0 +1,11 @@
+framework module ExtoleProxySDK {
+  umbrella header "ExtoleProxySDK.h"
+  export *
+
+  module * { export * }
+}
+
+module ExtoleProxySDK.Swift {
+  header "ExtoleProxySDK-Swift.h"
+  requires objc
+}

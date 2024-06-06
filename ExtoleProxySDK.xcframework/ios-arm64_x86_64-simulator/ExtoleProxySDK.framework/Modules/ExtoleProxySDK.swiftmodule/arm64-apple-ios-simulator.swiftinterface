@@ -1,0 +1,66 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ExtoleProxySDK
+@_exported import ExtoleProxySDK
+import Extole_iOS
+import Foundation
+import Logging
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public protocol IZone {
+  @objc func getName() -> Swift.String?
+  @objc func tap()
+  @objc func viewed()
+  @objc func get(_ dottedPath: Swift.String) -> Any?
+}
+@objc public protocol IId {
+  @objc func getValue() -> Swift.String?
+}
+@objc public protocol ICampaign : ExtoleProxySDK.Extole {
+  @objc func getProgram() -> Swift.String?
+  @objc func getId() -> any ExtoleProxySDK.IId
+}
+@objc public protocol Extole {
+  @objc func initFor(_ programDomain: Swift.String, _ applicationName: Swift.String)
+  @objc func fetchZone(_ zoneName: Swift.String, _ data: [Swift.String : Swift.String], completion: @escaping (ExtoleProxySDK.Zone?, ExtoleProxySDK.Campaign?, (any Swift.Error)?) -> Swift.Void)
+  @objc func getView() -> UIKit.UIViewController
+  @objc func identify(_ email: Swift.String, _ data: [Swift.String : Swift.String], _ completion: @escaping (ExtoleProxySDK.Id?, (any Swift.Error)?) -> Swift.Void)
+  @objc func identifyJwt(_ jwt: Swift.String, _ data: [Swift.String : Swift.String], _ completion: @escaping (ExtoleProxySDK.Id?, (any Swift.Error)?) -> Swift.Void)
+  @objc func sendEvent(_ eventName: Swift.String, _ data: [Swift.String : Any], _ completion: @escaping (ExtoleProxySDK.Id?, (any Swift.Error)?) -> Swift.Void)
+  @objc func sendEvent(_ eventName: Swift.String, _ data: [Swift.String : Any], _ completion: @escaping (ExtoleProxySDK.Id?, (any Swift.Error)?) -> Swift.Void, _ jwt: Swift.String?)
+  @objc func logout()
+}
+@_inheritsConvenienceInitializers @objc public class ExtoleImpl : ObjectiveC.NSObject, ExtoleProxySDK.Extole {
+  @objc public func initFor(_ programDomain: Swift.String, _ applicationName: Swift.String)
+  @objc public func fetchZone(_ zoneName: Swift.String, _ data: [Swift.String : Swift.String], completion: @escaping (ExtoleProxySDK.Zone?, ExtoleProxySDK.Campaign?, (any Swift.Error)?) -> Swift.Void)
+  @objc public func identify(_ email: Swift.String, _ data: [Swift.String : Swift.String], _ completion: @escaping ((ExtoleProxySDK.Id)?, (any Swift.Error)?) -> Swift.Void)
+  @objc public func identifyJwt(_ jwt: Swift.String, _ data: [Swift.String : Swift.String], _ completion: @escaping ((ExtoleProxySDK.Id)?, (any Swift.Error)?) -> Swift.Void)
+  @objc public func sendEvent(_ eventName: Swift.String, _ data: [Swift.String : Any], _ completion: @escaping ((ExtoleProxySDK.Id)?, (any Swift.Error)?) -> Swift.Void)
+  @objc public func sendEvent(_ eventName: Swift.String, _ data: [Swift.String : Any], _ completion: @escaping ((ExtoleProxySDK.Id)?, (any Swift.Error)?) -> Swift.Void, _ jwt: Swift.String?)
+  @objc public func logout()
+  @objc public func getView() -> UIKit.UIViewController
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class Zone : ObjectiveC.NSObject, ExtoleProxySDK.IZone {
+  public init(_ zone: Extole_iOS.Zone?)
+  @objc public func getName() -> Swift.String?
+  @objc public func tap()
+  @objc public func viewed()
+  @objc public func get(_ dottedPath: Swift.String) -> Any?
+  @objc deinit
+}
+@objc public class Campaign : ExtoleProxySDK.ExtoleImpl, ExtoleProxySDK.ICampaign {
+  public init(_ campaign: (any Extole_iOS.Campaign)?)
+  @objc public func getId() -> any ExtoleProxySDK.IId
+  @objc public func getProgram() -> Swift.String?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class Id : ObjectiveC.NSObject, ExtoleProxySDK.IId {
+  @objc public func getValue() -> Swift.String?
+  @objc deinit
+}

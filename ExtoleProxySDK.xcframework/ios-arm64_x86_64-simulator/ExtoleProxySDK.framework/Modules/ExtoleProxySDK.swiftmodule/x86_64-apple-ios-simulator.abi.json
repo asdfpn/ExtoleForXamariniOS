@@ -1,0 +1,2253 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Extole_iOS",
+        "printedName": "Extole_iOS",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Logging",
+        "printedName": "Logging",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IZone",
+        "printedName": "IZone",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getName",
+            "printedName": "getName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)IZone(im)getName",
+            "mangledName": "$s14ExtoleProxySDK5IZoneP7getNameSSSgyF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.IZone>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.IZone>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tap",
+            "printedName": "tap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)IZone(im)tap",
+            "mangledName": "$s14ExtoleProxySDK5IZoneP3tapyyF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.IZone>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.IZone>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewed",
+            "printedName": "viewed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)IZone(im)viewed",
+            "mangledName": "$s14ExtoleProxySDK5IZoneP6viewedyyF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.IZone>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.IZone>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)IZone(im)get:",
+            "mangledName": "$s14ExtoleProxySDK5IZoneP3getyypSgSSF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.IZone>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.IZone>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ExtoleProxySDK@objc(pl)IZone",
+        "mangledName": "$s14ExtoleProxySDK5IZoneP",
+        "moduleName": "ExtoleProxySDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IId",
+        "printedName": "IId",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getValue",
+            "printedName": "getValue()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)IId(im)getValue",
+            "mangledName": "$s14ExtoleProxySDK3IIdP8getValueSSSgyF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.IId>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.IId>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ExtoleProxySDK@objc(pl)IId",
+        "mangledName": "$s14ExtoleProxySDK3IIdP",
+        "moduleName": "ExtoleProxySDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ICampaign",
+        "printedName": "ICampaign",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getProgram",
+            "printedName": "getProgram()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)ICampaign(im)getProgram",
+            "mangledName": "$s14ExtoleProxySDK9ICampaignP10getProgramSSSgyF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.ICampaign>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.ICampaign>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getId",
+            "printedName": "getId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IId",
+                "printedName": "any ExtoleProxySDK.IId",
+                "usr": "c:@M@ExtoleProxySDK@objc(pl)IId"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)ICampaign(im)getId",
+            "mangledName": "$s14ExtoleProxySDK9ICampaignP5getIdAA3IId_pyF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.ICampaign>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.ICampaign>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ExtoleProxySDK@objc(pl)ICampaign",
+        "mangledName": "$s14ExtoleProxySDK9ICampaignP",
+        "moduleName": "ExtoleProxySDK",
+        "genericSig": "<τ_0_0 : ExtoleProxySDK.Extole>",
+        "sugared_genericSig": "<Self : ExtoleProxySDK.Extole>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Extole",
+            "printedName": "Extole",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole",
+            "mangledName": "$s14ExtoleProxySDK0A0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Extole",
+        "printedName": "Extole",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initFor",
+            "printedName": "initFor(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole(im)initFor::",
+            "mangledName": "$s14ExtoleProxySDK0A0P7initForyySS_SStF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.Extole>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.Extole>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchZone",
+            "printedName": "fetchZone(_:_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Zone?, ExtoleProxySDK.Campaign?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Zone?, ExtoleProxySDK.Campaign?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Zone?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Zone",
+                            "printedName": "ExtoleProxySDK.Zone",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Campaign?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Campaign",
+                            "printedName": "ExtoleProxySDK.Campaign",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Campaign"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole(im)fetchZone::completion:",
+            "mangledName": "$s14ExtoleProxySDK0A0P9fetchZone__10completionySS_SDyS2SGyAA0E0CSg_AA8CampaignCSgs5Error_pSgtctF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.Extole>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.Extole>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getView",
+            "printedName": "getView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole(im)getView",
+            "mangledName": "$s14ExtoleProxySDK0A0P7getViewSo16UIViewControllerCyF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.Extole>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.Extole>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "identify",
+            "printedName": "identify(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Id?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Id",
+                            "printedName": "ExtoleProxySDK.Id",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole(im)identify:::",
+            "mangledName": "$s14ExtoleProxySDK0A0P8identifyyySS_SDyS2SGyAA2IdCSg_s5Error_pSgtctF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.Extole>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.Extole>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "identifyJwt",
+            "printedName": "identifyJwt(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Id?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Id",
+                            "printedName": "ExtoleProxySDK.Id",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole(im)identifyJwt:::",
+            "mangledName": "$s14ExtoleProxySDK0A0P11identifyJwtyySS_SDyS2SGyAA2IdCSg_s5Error_pSgtctF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.Extole>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.Extole>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Id?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Id",
+                            "printedName": "ExtoleProxySDK.Id",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole(im)sendEvent:::",
+            "mangledName": "$s14ExtoleProxySDK0A0P9sendEventyySS_SDySSypGyAA2IdCSg_s5Error_pSgtctF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.Extole>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.Extole>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Id?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Id",
+                            "printedName": "ExtoleProxySDK.Id",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole(im)sendEvent::::",
+            "mangledName": "$s14ExtoleProxySDK0A0P9sendEventyySS_SDySSypGyAA2IdCSg_s5Error_pSgtcSSSgtF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.Extole>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.Extole>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole(im)logout",
+            "mangledName": "$s14ExtoleProxySDK0A0P6logoutyyF",
+            "moduleName": "ExtoleProxySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ExtoleProxySDK.Extole>",
+            "sugared_genericSig": "<Self where Self : ExtoleProxySDK.Extole>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole",
+        "mangledName": "$s14ExtoleProxySDK0A0P",
+        "moduleName": "ExtoleProxySDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Extole_iOS",
+        "printedName": "Extole_iOS",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Logging",
+        "printedName": "Logging",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ExtoleProxySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExtoleImpl",
+        "printedName": "ExtoleImpl",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initFor",
+            "printedName": "initFor(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)initFor::",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplC7initForyySS_SStF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "initFor::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchZone",
+            "printedName": "fetchZone(_:_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Zone?, ExtoleProxySDK.Campaign?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Zone?, ExtoleProxySDK.Campaign?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Zone?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Zone",
+                            "printedName": "ExtoleProxySDK.Zone",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Campaign?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Campaign",
+                            "printedName": "ExtoleProxySDK.Campaign",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Campaign"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)fetchZone::completion:",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplC9fetchZone__10completionySS_SDyS2SGyAA0F0CSg_AA8CampaignCSgs5Error_pSgtctF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "fetchZone::completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "identify",
+            "printedName": "identify(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Id?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Id",
+                            "printedName": "ExtoleProxySDK.Id",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)identify:::",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplC8identifyyySS_SDyS2SGyAA2IdCSg_s5Error_pSgtctF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "identify:::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "identifyJwt",
+            "printedName": "identifyJwt(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Id?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Id",
+                            "printedName": "ExtoleProxySDK.Id",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)identifyJwt:::",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplC11identifyJwtyySS_SDyS2SGyAA2IdCSg_s5Error_pSgtctF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "identifyJwt:::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Id?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Id",
+                            "printedName": "ExtoleProxySDK.Id",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)sendEvent:::",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplC9sendEventyySS_SDySSypGyAA2IdCSg_s5Error_pSgtctF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "sendEvent:::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ExtoleProxySDK.Id?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ExtoleProxySDK.Id?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Id",
+                            "printedName": "ExtoleProxySDK.Id",
+                            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)sendEvent::::",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplC9sendEventyySS_SDySSypGyAA2IdCSg_s5Error_pSgtcSSSgtF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "sendEvent::::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)logout",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplC6logoutyyF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "logout",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getView",
+            "printedName": "getView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)getView",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplC7getViewSo16UIViewControllerCyF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "getView",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExtoleImpl",
+                "printedName": "ExtoleProxySDK.ExtoleImpl",
+                "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl(im)init",
+            "mangledName": "$s14ExtoleProxySDK0A4ImplCACycfc",
+            "moduleName": "ExtoleProxySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl",
+        "mangledName": "$s14ExtoleProxySDK0A4ImplC",
+        "moduleName": "ExtoleProxySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Extole",
+            "printedName": "Extole",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole",
+            "mangledName": "$s14ExtoleProxySDK0A0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Zone",
+        "printedName": "Zone",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Zone",
+                "printedName": "ExtoleProxySDK.Zone",
+                "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Extole_iOS.Zone?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Zone",
+                    "printedName": "Extole_iOS.Zone",
+                    "usr": "s:10Extole_iOS4ZoneC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ExtoleProxySDK4ZoneCyAC0A4_iOSABCSgcfc",
+            "mangledName": "$s14ExtoleProxySDK4ZoneCyAC0A4_iOSABCSgcfc",
+            "moduleName": "ExtoleProxySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getName",
+            "printedName": "getName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone(im)getName",
+            "mangledName": "$s14ExtoleProxySDK4ZoneC7getNameSSSgyF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "getName",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tap",
+            "printedName": "tap()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone(im)tap",
+            "mangledName": "$s14ExtoleProxySDK4ZoneC3tapyyF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "tap",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewed",
+            "printedName": "viewed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone(im)viewed",
+            "mangledName": "$s14ExtoleProxySDK4ZoneC6viewedyyF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "viewed",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone(im)get:",
+            "mangledName": "$s14ExtoleProxySDK4ZoneC3getyypSgSSF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "get:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Zone",
+                "printedName": "ExtoleProxySDK.Zone",
+                "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone(im)init",
+            "mangledName": "$s14ExtoleProxySDK4ZoneCACycfc",
+            "moduleName": "ExtoleProxySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ExtoleProxySDK@objc(cs)Zone",
+        "mangledName": "$s14ExtoleProxySDK4ZoneC",
+        "moduleName": "ExtoleProxySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IZone",
+            "printedName": "IZone",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)IZone",
+            "mangledName": "$s14ExtoleProxySDK5IZoneP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Campaign",
+        "printedName": "Campaign",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Campaign",
+                "printedName": "ExtoleProxySDK.Campaign",
+                "usr": "c:@M@ExtoleProxySDK@objc(cs)Campaign"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Extole_iOS.Campaign)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Campaign",
+                    "printedName": "any Extole_iOS.Campaign",
+                    "usr": "s:10Extole_iOS8CampaignP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ExtoleProxySDK8CampaignCyAC0A4_iOSAB_pSgcfc",
+            "mangledName": "$s14ExtoleProxySDK8CampaignCyAC0A4_iOSAB_pSgcfc",
+            "moduleName": "ExtoleProxySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getId",
+            "printedName": "getId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "IId",
+                "printedName": "any ExtoleProxySDK.IId",
+                "usr": "c:@M@ExtoleProxySDK@objc(pl)IId"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Campaign(im)getId",
+            "mangledName": "$s14ExtoleProxySDK8CampaignC5getIdAA3IId_pyF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "getId",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getProgram",
+            "printedName": "getProgram()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Campaign(im)getProgram",
+            "mangledName": "$s14ExtoleProxySDK8CampaignC10getProgramSSSgyF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "getProgram",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Campaign",
+                "printedName": "ExtoleProxySDK.Campaign",
+                "usr": "c:@M@ExtoleProxySDK@objc(cs)Campaign"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Campaign(im)init",
+            "mangledName": "$s14ExtoleProxySDK8CampaignCACycfc",
+            "moduleName": "ExtoleProxySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ExtoleProxySDK@objc(cs)Campaign",
+        "mangledName": "$s14ExtoleProxySDK8CampaignC",
+        "moduleName": "ExtoleProxySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@ExtoleProxySDK@objc(cs)ExtoleImpl",
+        "superclassNames": [
+          "ExtoleProxySDK.ExtoleImpl",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ICampaign",
+            "printedName": "ICampaign",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)ICampaign",
+            "mangledName": "$s14ExtoleProxySDK9ICampaignP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Extole",
+            "printedName": "Extole",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)Extole",
+            "mangledName": "$s14ExtoleProxySDK0A0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Id",
+        "printedName": "Id",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getValue",
+            "printedName": "getValue()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id(im)getValue",
+            "mangledName": "$s14ExtoleProxySDK2IdC8getValueSSSgyF",
+            "moduleName": "ExtoleProxySDK",
+            "objc_name": "getValue",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Id",
+                "printedName": "ExtoleProxySDK.Id",
+                "usr": "c:@M@ExtoleProxySDK@objc(cs)Id"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ExtoleProxySDK@objc(cs)Id(im)init",
+            "mangledName": "$s14ExtoleProxySDK2IdCACycfc",
+            "moduleName": "ExtoleProxySDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ExtoleProxySDK@objc(cs)Id",
+        "mangledName": "$s14ExtoleProxySDK2IdC",
+        "moduleName": "ExtoleProxySDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IId",
+            "printedName": "IId",
+            "usr": "c:@M@ExtoleProxySDK@objc(pl)IId",
+            "mangledName": "$s14ExtoleProxySDK3IIdP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/puneet\/Downloads\/ExtoleProxySDK\/ExtoleProxySDK\/ExtoleImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3014,
+      "length": 4,
+      "value": "\"ExtoleProxySDK.Zone\""
+    },
+    {
+      "filePath": "\/Users\/puneet\/Downloads\/ExtoleProxySDK\/ExtoleProxySDK\/ExtoleImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3538,
+      "length": 8,
+      "value": "\"ExtoleProxySDK.Campaign\""
+    },
+    {
+      "filePath": "\/Users\/puneet\/Downloads\/ExtoleProxySDK\/ExtoleProxySDK\/ExtoleImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3955,
+      "length": 2,
+      "value": "\"ExtoleProxySDK.Id\""
+    }
+  ]
+}
